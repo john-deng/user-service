@@ -3,7 +3,8 @@ package main
 import "fmt"
 
 func foo()  {
-    fmt.Println("Hello, foo")
+    var count = 2017;
+    fmt.Println("\nHello, foo", count)
 }
 
 func main() {
